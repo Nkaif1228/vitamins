@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">  
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo"> 
+        <a href="#" id="v">Vital</a> 
+        <a href="#" id="s">Source</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#Vitamins">Vitamins</a></li>   
+        <li><a href="#aboutpage" >About</a></li>
+        <li><a href="#quotes">Quotes</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </header>
+  <section id="home">
+    <div class="front">
+        <div class="side">
+            <h1>Enhance Your Health with Pure Vitamin Power.</h1>
+                <p>Fuel Your Health, Empower Your Life.</p>          
+        </div>
+        <div class="image">
+            <img src="ai-generated-8680078_1280.jpg" alt=""  width="300" height="240" >
+        </div>
+    </div>
+  </section>
+  
+  <section id="aboutpage">
+    <div class="aboutdiv">     
+        <div class="about-para">
+            <h1>ABOUT <a href="#" id="v">Vital</a> 
+              <a href="#" id="s">Source</a></h1>
+            <p>Welcome to our platform, where we aim to simplify the sciene
+                of health and nutrition. Our mission is to provide accurate, easy-to-understand, and
+                up-to-date informations about vitamins.We believe that knowledge is the foundation of a
+                healthier lifestyle, and we are here to empower you to make informed decisions about your
+                health.</p>
+        </div>
+        <div class="features">
+            <div class="feature1">
+                <h3>Our Mission</h3>
+                <p>To educate and inspire individuals by providing evidence-based insights into 
+                    the role of nutrients in overall health and well-being.</p>
+            </div>
+            <div class="feature2">
+                <h3>What We Offer</h3>
+                <p>Comprehensive information about vitamins and thier benefits,tailored
+                    to help you live a healthier life. </p>
+                </div>
+                <div class="feature3">
+                    <h3>Our Vision</h3>
+                    <p>To become a trusted source of knowledge,guiding people toward better
+                        health with clarity and simplicity.</p>
+                </div>
+               </div>
+    </div>
+</section>
+
+<section id="Vitamins">       
+  <div class="vitaminsdiv">
+      <div class="vita-info">
+          <h2>Why  Are Vitamins Important?</h2>
+          <p>Welcome to our platform, where we aim to simplify the sciene
+            of health and nutrition. Our mission is to provide accurate, easy-to-understand, and
+            up-to-date informations about vitamins.We believe that knowledge is the foundation of a
+            healthier lifestyle, and we are here to empower you to make informed decisions about your
+            health.</p>
+              <div class="vitaimage">
+                  <img src="vitamin.png" alt="">
+              </div>
+      </div>
+      <div class="ce">
+          <h2>Explore it's Types</h1>
+              <div class="vitatype">        
+                  <a href="vitaminA.html"  class="vitaA">Vitamin A</a>
+                  <a href="vitaminB.html"  class="vitaB">Vitamin B</a>
+                  <a href="vitaminC.html"  class="vitaC">Vitamin C</a>
+                  <a href="vitaminD.html"   class="vitaD">Vitamin D</a>
+                  <a href="vitaminE.html" class="vitaE">Vitamin E</a>
+                  <a href="vitaminK.html"  class="vitaK">Vitamin K</a>
+              </div>
+      </div>      
+  </div>
+</section>
+
+<section id="quotes">
+  <div class="quotes">
+    <h2>Quotes Of The Day</h1>
+        <div class="days">
+            <a href="d1.html" class="d1">Sunday</a>
+            <a href="d2.html" class="d2">Monday</a>
+            <a href="d3.html" class="d3">Tuesday</a>
+            <a href="d4.html" class="d4">Wednesday</a>
+            <a href="d5.html" class="d5">Thursday</a>
+            <a href="d6.html" class="d6">Friday</a>
+            <a href="d7.html" class="d7">Saturday</a>
+        </div>
+</div>
+</section>
+
+  <script>
+    const hamburger = document.getElementById("hamburger");
+    const navLinks = document.querySelector(".nav-links");
+    hamburger.addEventListener("click", () => {
+      navLinks.classList.toggle("active");});
+  </script>
+
+</body>
+</html>
